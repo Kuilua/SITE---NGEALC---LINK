@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icone da aba -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/icone-aba/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/img/icone-aba/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/img/icone-aba/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icone-aba/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/icone-aba/favicon-16x16.png">
+    <!-- Icone da aba -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Animaçao dos elementos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Icone Hamburger -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Icones do rodapé -->
+    <script src="https://kit.fontawesome.com/52549e7bf4.js" crossorigin="anonymous"></script>
+    <!-- Fonte Google - IBM -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap" rel="stylesheet">
+    <!-- Fonte Google - Bangers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <!-- Fonte Google - Bungee Outline -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
+    <!-- Fonte Google - Hanalei -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanalei&display=swap" rel="stylesheet">
+    <!-- Fonte Google - Caesar Dressing -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
+    <!-- JS -->
+    <script defer src="js/alternar.js"></script>
+    <!-- Titulo da Pagina -->
+    <title class="titulo-principal">Membros - NGEAALC - UNEB</title>
+
+</head>
+
+<body>
+    <aside id='topo'></aside>
+
+    <div class="logos">
+        <!-- LOGO UNEB -->
+        <div class="animate__animated animate__zoomInUp">
+            <a href="https://portal.uneb.br/" target="_blank">
+                <img class="logo-uneb" src="./img/logos/UNEB-logo-2.png" /> </a>
+        </div>
+        <div class="nome-site">
+            <label class="texto-nome-principal"> NUCELO </label>&nbsp;
+            <label class="texto-nome">DE </label> &nbsp;
+            <label class="texto-nome-principal">ESTUDOS  </label><br>
+            <label class="texto-nome-principal">AFRICANOS </label>&nbsp;
+            <label class="texto-nome">E </label> &nbsp;
+            <label class="texto-nome-principal">AFRODESCENDENTES  </label><br>
+            <label class="texto-nome">EM </label> &nbsp;
+            <label class="texto-nome-principal">LINGUAS </label> &nbsp;
+            <label class="texto-nome">E </label> &nbsp;
+            <label class="texto-nome-principal">CULTURA </label>
+        </div>
+        <!-- LOGO NGEAALC -->
+        <div class="animate__animated animate__zoomIn">
+            <a href="https://ngeaalc.uneb.br/" target="_blank">
+                <img class="logo-ngeaalc" src="./img/logos/logo.png" /> </a>
+        </div>
+    </div>
+
+    <div class="menu-mobile">
+        <!-- Menu Mobile -->
+        <div class="topnav">
+            <a href="#topo" class="active texto-nome">NGEAALC</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <li class="texto-menu-opcoes">
+                    <a href="index.html"> <i class="fas fa-home"></i></i>
+                        <p></p>Início</a>
+                </li>
+                <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="myFunction2()"><i class="fas fa-users icon" ></i><p></p>Quem Somos</a>
+                    <div id="myLinks2">
+                        <ul>
+                            <li class="menu-h-mobile"><a href="apresentacao.html">Apresentação - NGEAALC</a></li>
+                            <li class="menu-h-mobile"><a href="membros.html">Membros</a></li>
+                            <li class="menu-h-mobile"><a href="regimento.html">Regimento</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="texto-menu-opcoes"> <a href="producoes.html"><i class="fas fa-book"></i><p></p>Produções</a> </li>
+                <li class="texto-menu-opcoes"> <a href=""><i class="fas fa-chalkboard-teacher"></i><p></p>A Definir</a> </li>
+                <li class="texto-menu-opcoes"> <a href="internacionais.html"><i class="fas fa-users"></i> &nbsp; <i class="fab fa-font-awesome-flag"></i> <p></p>Colaboradores <p></p>Internacionais</a>
+                </li>
+                <li class="texto-menu-opcoes"> <a href="#"><i class="fas fa-newspaper"></i><p></p>AFRICANIAS.COM</a> </li>
+                <li class="texto-menu-opcoes"> <a href="faleconosco.html"><i class="fas fa-mail-bulk"></i><p></p>Fale Conosco</a> </li>
+                </ul>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <script>
+        function myFunction2() {
+            var x = document.getElementById("myLinks2");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+    <!-- CENTRALIZAR CORPO DA PAGINA  -->
+    <div class="centralizar-texto-corpo">
+
+        <!-- MENU SUPERIOR  -->
+        <div class="mobile-corpo">
+            <header class="menu-principal animate__animated animate__fadeIn">
+                <!-- animate__animated animate__slideInLeft  -->
+                <nav class="dp-menu">
+                    <ul class="menu-h">
+                        <li class="texto-menu-opcoes">
+                            <a href="index.html"> <i class="fas fa-home active"></i></i>
+                                <p></p>Início</a>
+                        </li>
+                        <li class="texto-menu-opcoes"> <a href="javascript:void(0);" onclick="myFunction2()"><i class="fas fa-users icon" ></i><p></p>Quem Somos</a>
+                            <div id="myLinks2">
+                                <ul>
+                                    <li class="menu-h"><a href="apresentacao.html">Apresentação NGEAALC</a></li>
+                                    <li class="menu-h"><a href="membros.html">Membros</a></li>
+                                    <li class="menu-h"><a href="regimento.html">Regimento</a></li>
+                                </ul>
+                        </li>
+                        <li class="texto-menu-opcoes"> <a href="producoes.html"><i class="fas fa-book"></i><p></p>Producoes</a> </li>
+                        <li class="texto-menu-opcoes"> <a href=""><i class="fas fa-chalkboard-teacher"></i><p></p>A Definir</a> </li>
+                        <li class="texto-menu-opcoes"> <a href="internacionais.html"><i class="fas fa-users"></i> &nbsp; <i class="fab fa-font-awesome-flag"></i> <p></p>Colaboradores <p></p>Internacionais</a>
+                        </li>
+                        <li class="texto-menu-opcoes"> <a href="africanias.html"><i class="fas fa-newspaper"></i><p></p>AFRICANIAS.COM</a> </li>
+                        <li class="texto-menu-opcoes"> <a href="faleconosco.html"><i class="fas fa-mail-bulk"></i><p></p>Fale Conosco</a> </li>
+                    </ul>
+                </nav>
+            </header>
+            </div>
+            <label class="animate__animated animate__fadeInLeft titulo-principal">Quem somos?</label>
+
+            <div class="dp-menu-membros topnav-membros">
+                <ul class="menu-membros">
+                    <li class="texto-menu-membros">
+                        <a id="show-or-hide btn1" href="javascript:void(0); #Mylinks10; caixa-membros-corpo-doscente" onclick="myFunction1(getElementById='count')"><label class="icone-menu-membros"> <i class="fas fa-graduation-cap texto-colaboradores-botao"></i> <br> Membros - Corpo Doscente </label></a></button>
+                    </li>
+                    <li class="texto-menu-membros">
+                        <a id="show-or-hide btn2" href="javascript:void(0); #Mylinks20; caixa-membros-estudante" onclick="myFunction2(getElementById='count')"><label class="icone-menu-membros"><i class="fas fa-user-graduate texto-colaboradores-botao"></i> <br> Membros - Estudantes </label></a></button>
+                    </li>
+                    <li class="texto-menu-membros">
+                        <a id="show-or-hide btn3" href="javascript:void(0); #Mylinks30; caixa-membros-tecnicos" onclick="myFunction3(getElementById='count')"><label class="icone-menu-membros"><i class="fas fa-laptop-code texto-colaboradores-botao"> </i> <br> Membros - Tecnicos </label></a></button>
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <script>
+                function myFunction1() {
+
+                    var x = document.getElementById("myLinks10");
+                    var y = document.getElementById("myLinks20");
+                    var z = document.getElementById("myLinks30");
+
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+                        y.style.display = "none";
+                        z.style.display = "none";
+                    } else {
+
+                        if (x.style.display === "block") {
+                            x.style.display = "block";
+                            y.style.display = "none";
+                            z.style.display = "none";
+                        } else {
+                            y.style.display = "block";
+                            x.style.display = "block";
+                            z.style.display = "block";
+                        }
+                    }
+                }
+            </script>
+
+            <script>
+                function myFunction2() {
+
+                    var x = document.getElementById("myLinks10");
+                    var y = document.getElementById("myLinks20");
+                    var z = document.getElementById("myLinks30");
+                    // funcao para saber se o numero é par
+                    if (count % 2 == 0) {
+                        if (y.style.display === "none") {
+                            y.style.display = "block";
+                            x.style.display = "none";
+                            z.style.display = "none";
+                        } else {
+
+                            if (y.style.display === "block") {
+                                y.style.display = "block";
+                                x.style.display = "none";
+                                z.style.display = "none";
+                            } else {
+                                y.style.display = "block";
+                                x.style.display = "block";
+                                z.style.display = "block";
+                            }
+                        }
+                    }
+                }
+            </script>
+
+            <script>
+                function myFunction3() {
+
+                    var x = document.getElementById("myLinks10");
+                    var y = document.getElementById("myLinks20");
+                    var z = document.getElementById("myLinks30");
+
+                    if (z.style.display === "none") {
+                        z.style.display = "block";
+                        y.style.display = "none";
+                        x.style.display = "none";
+                    } else {
+
+                        if (z.style.display === "block") {
+                            z.style.display = "block";
+                            x.style.display = "none";
+                            y.style.display = "none";
+                        } else {
+                            y.style.display = "block";
+                            x.style.display = "block";
+                            z.style.display = "block";
+                        }
+                    }
+                }
+            </script>
+
+            <!-- Função para mostrar Div Selecionada
+            <script>
+                function myFunction10(event) {
+                    var x = document.getElementById("myLinks10");
+                    var y = document.getElementById("myLinks20");
+                    var z = document.getElementById("myLinks30");
+
+
+                    if (btn1 === onclick & (x.style.display === "block")) {
+                        x.style.display = "block";
+                        y.style.display = "none";
+                        z.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                        y.style.display = "none";
+                        z.style.display = "none";
+                    }
+
+                    if (y.style.display === "block" & btn2 === onclick) {
+                        y.style.display = "block";
+                        x.style.display = "none";
+                        z.style.display = "none";
+                    } else {
+                        x.style.display = "none";
+                        y.style.display = "block";
+                        z.style.display = "none";
+                    }
+
+                    if (z.style.display === "block" & btn3 === onclick) {
+                        x.style.display = "none";
+                        y.style.display = "none";
+                        z.style.display = "block";
+                    } else {
+                        x.style.display = "none";
+                        y.style.display = "none";
+                        z.style.display = "block";
+                    }
+                }
+            </script>
+
+-->
+
+            <div id="myLinks10" class="container1">
+                <h1 class="texto-membros"> Membros - Corpo Doscente </h1>
+
+                <!-- Colaboradores contidos em ... -->
+
+                <form class="caixa-membros-corpo-doscente">
+
+
+                    <!-- Colaborador 01 de 18 -->
+                    <div class="id-colaboradores">
+                        <fieldset class="id-colaboradores-texto">
+                            <img class="forma-colaboradores-img" src="img/membros/doscente/01.png" width="300" height="400" alt="img">
+                            <br><label>Nome: Abilio Manuel Marques de Mendonça</label>
+                            <br><label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489</a></label>
+                            <br><label> Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489</a></label>
+                            <br><label>Linha de Pesquisa: 2. Línguas da Família Niger-Congo e Negroafricano 4. Educação e Interseccionalidades</label>
+                            <br><label>Áreas de Interesse: Letras com ênfase em Português, Inglês, Literatura, atuando principalmente nos seguintes temas: léxico, língua negro-africana.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset>
+                        <div id="show-or-hide"><i class="fas fa-sort-down"><label class="id-colaboradores-texto container">Mestrado em Estudo de Linguagens na UNEB, possui pós-graduação em História e Cultura da África, graduação em Letras Vernáculas com Inglês pela Universidade Católica do Salvador
+                        (1995). Faz parte do NGEAALC (Núcleo de Estudos Africanos e Afro-brasileiros de Línguas e Culturas) e NEL (Núcleo de Estudos Lexicais), ambos da UNEB. Atualmente é professor da Secretaria de Educação de Lauro de Freitas. Faz pesquisa linguística
+                        no quilombo urbano Quingoma, em Lauro de Freitas, Bahia e faz parte do Projeto ATOBAH sobre Toponímia no NEL (Núcleo de Estudos Lexicais) da UNEB.</label></i><br>
+                        </div>
+                    </div>
+                    <!-- FIM - Colaborador 01 de 18 -->
+                    <!-- Colaborador 02 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/02.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Adriana dos Santos Marmori Lima</label> <br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/6403124099609052"> http://lattes.cnpq.br/6403124099609052 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="https://orcid.org/0000-0003-2020-9090"> https://orcid.org/0000-0003-2020-9090 </a>
+                            <br><label>Linha de Pesquisa: 4. Educação e Interseccionalidades</label>
+                            <br><label>Áreas de Interesse: Educação com ênfase em formação de professores; Tecnologias de Informação e Comunicação Aplicada à Educação; Extensão Universitária e Gestão Pública Universitária.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset>
+                        <label class="id-colaboradores-texto">Graduada em Pedagogia pela Universidade do Estado da Bahia - UNEB (1991).  Especialista em Alfabetização (FAEBA/IAT), Especialista em Informática Educativa - UEFS (1997). Mestre em Educação e Contemporaneidade - UNEB (2009). Doutora pelo Programa Multiinstitucional e Multidisciplinar em Difusão do Conhecimento UFBA (2018). Atuou como Multiplicadora do Núcleo de Tecnologia Educacional -NTE/08 do Estado da Bahia. Professora Assistente da UNEB. Exerceu os cargos de: Diretora do Campus IX-Barreiras (2000-2003), Gerente de Extensão Universitária (2006), Pró-reitora de Extensão da UNEB (2007-2011/2018-2021) Vice-Reitora da UNEB (2012-2013), Chefe de Gabinete da Secretaria de Políticas para Mulheres do Estado da Bahia (2014). Em 2017 participou do Programa de Doutorado Sanduíche na Universidade de Aveiro Portugal, pesquisando sobre Gênero e Gestão por mulheres. Atualmente exerce a função de Reitora da UNEB e integra os grupos de pesquisas: Estudos sobre gênero e Sexualidade (ENLACE); Planejamento e Gestão e educacional (EDUCATIO); e o Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEALC). Presidiu o Fórum de Pró-reitores de Extensão das Instituições públicas de Educação Superior do Brasil (FORPROEX/2019-2020) e atualmente é vice-presidente do mesmo.</label><br>
+
+                    </div>
+                    <!-- FIM - Colaborador 02 de 18 -->
+                    <!-- Colaborador 03 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/03.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Amanaiara Conceição de Santana Miranda</label> <br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/9180689569716935"> http://lattes.cnpq.br/9180689569716935 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="https://orcid.org/0000-0002-8728-0054"> https://orcid.org/0000-0002-8728-0054 </a>
+                            <br><label>Linha de Pesquisa: 4. Educação e Interseccionalidades</label>
+                            <br><label>Áreas de Interesse: Letras com ênfase em Português, Inglês, Literatura, atuando principalmente nos seguintes temas: léxico, língua negro-africana.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="amanaiaramiramda@gmail.com" target="_blank"> amanaiaramiramda@gmail.com </a></label>
+                        </fieldset>
+                        <label class="id-colaboradores-texto">Professora e Coordenadora Pedagógica da Rede Municipal de Ensino em Salvador/BA. Pesquisadora do Núcleo de Pesquisa e Extensão em Culturas, Gêneros e Sexualidades (NuCus/UFBA), do Grupo Enlace (UNEB) e do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB). Doutora em Difusão do Conhecimento (UFBA). Mestra em Estudos Interdisciplinares sobre Gênero, Mulheres e Feminismo (UFBA). Graduada em Pedagogia pela Faculdade de Educação da Bahia (FEBA). </label><br>
+                    </div>
+                    <!-- FIM - Colaborador 03 de 18 -->
+                    <!-- Colaborador 04 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/04.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Analia Santana</label> <br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/5324439332520122"> http://lattes.cnpq.br/5324439332520122 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="https://orcid.org/0000-0001-8188-4669"> https://orcid.org/0000-0001-8188-4669 </a>
+                            <br><label>Linha de Pesquisa:  1. Culturas Negro-africanas no Brasil 2. Línguas da Família Niger-Congo e Negroafricano </label>
+                            <br><label>Áreas de Interesse: Temáticas relacionadas às Irmandades Negras e Educação; Educação da Relações Étnico-raciais: Diversidade Religiosa e Memórias.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="nalsantana33@gmail.com" target="_blank"> nalsantana33@gmail.com </a></label>
+                        </fieldset>
+                        <label class="id-colaboradores-texto"> Doutoranda e Mestra em Educação e Contemporaneidade (PPGEduc/UNEB). Pedagoga (UNEB). Especialista em História e Cultura Africana e Afro-brasileira (Fundação Visconde de Cairu/BA). Professora da Rede Municipal de Ensino de Salvador. Pesquisadora do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB). Membra da Irmandade de Nossa Senhora do Rosário dos Pretos do Pelourinho.</label><br>
+                    </div>
+                    <!-- FIM - Colaborador 04 de 18 -->
+                    <!-- Colaborador 05 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/05.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: César Costa Vitorino</label> <br>
+                            <label>Doutor em Letras/Linguística  pela Pontifícia Universidade Católica do Rio Grande do Sul - PUCRS (2014). Mestre em Letras/Linguística pela Universidade Federal da Bahia - UFBA (1999). Especialização Lato sensu  em Planejamento e Prática de Ensino pela FEBA (1992). Licenciado em Pedagogia pela Universidade do Estado da Bahia (1990). Professor Permanente do Mestrado Profissional em Intervenção Educativa e Social (MPIES/UNEB/Campus XI) e do Colegiado de Letras Vernáculas, Departamento de Ciências Humanas (UNEB/DCH/ Campus I). Pesquisador do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/3849799012474542"> http://lattes.cnpq.br/3849799012474542 </a></label>
+                            <br>Link do ORCID:<a class="link-colaboradores" href="https://orcid.org/0000-0003-4121-004X"> https://orcid.org/0000-0003-4121-004X </a>
+                            <br><label>Linha de Pesquisa: 1. Culturas Negro-africanas no Brasil 2. Patrimônio Cultural, Memória, História e Acervos</label>
+                            <br><label>Áreas de Interesse: Sociolinguística e Psicolinguística; Aprendizagem de Leituras e Escrita de Afrodescendentes baianos; Culturas Africanas: Ensino de Língua Portuguesa em Escolas Quilombolas; Políticas Linguísticas em Territórios Quilombolas.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="cvitorino@uneb.br" target="_blank"> cvitorino@uneb.br </a></label>
+                        </fieldset>
+                        <label class="id-colaboradores-texto"></label>
+
+
+                    </div>
+                    <!-- FIM - Colaborador 05 de 18 -->
+                    <!-- Colaborador 06 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/06.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Edna Maria de Oliveira Ferreira</label> <br>
+                            <label>Mestre em Educação Agrícola (UFRRJ, 2007), especialista em Didática do Ensino Superior (UCSAL, 1991). Graduada em Letras e Pedagogia, pela Universidade do Oeste de São Paulo (UNOESTE-SP, 1978-1980). Especialização em Didática do Ensino Superior – UCsal (1991). Encontra- se em fase de conclusão dos estudos de doutoramento (UNR-Argentina). Atualmente é professora do Ensino Básico, Técnico e Tecnológico do Instituto Federal de Educação, Ciência e Tecnologia Baiano, campus Senhor do Bonfim, na área de linguagens. Pesquisadora do Núcleo do Grupo de Estudos Africanos e Afrobrasileiros em Línguas e Culturas (NGEALC/UNEB).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/1251875896052186"> http://lattes.cnpq.br/1251875896052186 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a>
+                            <br><label>Linha de Pesquisa:  3. Patrimônio Cultural, Memória, História e Acervos.</label>
+                            <br><label>Áreas de Interesse: Educação com ênfase nos seguintes temas: processo ensino-aprendizagem de leitura e escrita; Educação Profissional e Estudos de Linguagem..</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset>
+                        <label class="id-colaboradores-texto"></label>
+
+                    </div>
+                    <!-- FIM - Colaborador 06 de 18 -->
+                    <!-- Colaborador 07 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/07.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Hamilton Celestino da Paixão Filho </label> <br>
+                            <label>Possui Mestrado em Políticas Sociais e Cidadania, pela Universidade Católica do Salvador (UCSAL). Especialização em Arte e Patrimônio, pela Faculdade São Bento. Especialização em Metodologia Científica, pela Faculdade Olga Metting. Graduação em Artes Visuais, pela Universidade Católica do Salvador (UCSAL). Professor da Rede Estadual, Municipal e Particular desde o ano de 1995.</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a>
+                            <br><label>Linha de Pesquisa: 3. Patrimônio Cultural, Memória, História e Acervos.</label>
+                            <br><label>Áreas de Interesse: Letras com ênfase em Português, Inglês, Literatura, atuando principalmente nos seguintes temas: léxico, língua negro-africana.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset>
+                        <label class="id-colaboradores-texto"></label>
+
+                    </div>
+                    <!-- FIM - Colaborador 07 de 18 -->
+                    <!-- Colaborador 08 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/08.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Hildete Santos Pita Costa</label> <br>
+                            <label>Doutora em Difusão do Conhecimento - UFBA /UNEB/ UEFS/ SENAI- CIMATEC/ IFBA (2018). Especialização em Arquivologia /UFBA (1989). Graduação em Biblioteconomia e Documentação pela Universidade Federal da Bahia (1979). Autora e Gerente do Arquivo Central/ UNEB (1992/2003). Autora e Coordenadora do Centro de Documentação e Informação (CDI/UNEB/Campus I). Pesquisadora do Programa de História e Memória da Educação na Bahia (PROMEBA/UNEB) e do Grupo Multidisciplinar de Estudo e Pesquisa: Sociedade, Espaço, Educação e Turismo (SEETU). É Pesquisadora e Coordenadora do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/4682772919508965"> http://lattes.cnpq.br/4682772919508965 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a>
+                            <br><label>Linha de Pesquisa:  1. Culturas Negro-africanas no Brasil  2.Patrimônio Cultural, Memória, História e Acervos</label>
+                            <br><label>Áreas de Interesse: Ciência da Informação; Memória, Educação e Diversidade; Patrimônio Acervos; Arquivos Memoriais Museu e Inventários Culturais.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="hcosta@uneb.br" target="_blank"> hcosta@uneb.br </a></label>
+                        </fieldset><label class="id-colaboradores-texto"></label>
+
+                    </div>
+                    <!-- FIM - Colaborador 08 de 18 -->
+                    <!-- Colaborador 09 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/09 - Ivina.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Ivana Cristina Santana</label> <br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/3292829218044251"> http://lattes.cnpq.br/3292829218044251 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="https://orcid.org/0000-0003-2607-7199"> https://orcid.org/0000-0003-2607-7199 </a>
+                            <br><label>Linha de Pesquisa: 3. Patrimônio Cultural, Memória, História e Acervos</label>
+                            <br><label>Áreas de Interesse: Pesquisa com crianças afrodescendentes baianas.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset><label class="id-colaboradores-texto"> <label>Pedagoga, pela Universidade Federal da Bahia – UFBA (2021), com Formação livre em diversos cursos oferecidos pelas FUNCEB/SECULT e em demais espaços culturais e artísticos. Participou do Programa Institucional de Bolsas de Iniciação Científica (PIBIC), no período de 2020.2 a 2021.2, com o projeto “Inovações em Práticas de Alfabetização e Letramento: presenciais e a distância”, financiado pelo Fundo de Amparo à Pesquisa no Estado da Bahia (FAPESB-UFBA), e do Programa Institucional de Bolsas de Iniciação à Docência -  PIBID Pedagogia/UFBA, no período de 2018.2 a 2021.1, com o Subprojeto “Arte, Educação e Infâncias”, financiado pela CAPES. Foi coordenadora da Rede Encena Salvador – Movimento de Grupos de Teatro Comunitários; Vice-presidente do Colegiado Setorial de Teatro da Bahia (2012-2014); Foi parecerista do Edital Calendário das Artes - FUNCEB; Delegada de Cultura da Bahia- SECULT; Produção Executiva/Assessoria dos espetáculos: Partiste e a Lira dos Vinte Anos, ambas com direção de Paulo Henrique Alcântara; A Loba, direção de José Jackson;  Ovo e Vice e Versa, direção de Jones Mota; Cabaré do Riso, direção de Demian Reis. Pesquisadora do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB). </label><br>
+                        <br>
+
+                    </div>
+                    <!-- FIM - Colaborador 09 de 18 -->
+                    <!-- Colaborador 10 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/10.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Ivo Ferreira de Jesus</label> <br>
+                            <label>Etnolinguista. Graduação em Letras (UFBA); Teatro (Sated). Especialização em Comunicação (Rádio); em História e Culturas Africanas/afrobrasileira. Mestre em Educação e Contemporaneidade (UNEB). Doutorado em Letras (UFBA). Professor do Instituto Federal Baiano (IFBAIANO). Professor voluntário do Instituto Cultural Beneficente Steve Biko (Salvador-BA). Autor do Romance: “O Deus do sal e outras correntezas”. Pesquisador do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a>
+                            <br><label>Linha de Pesquisa: 1. Culturas Negro-africanas no Brasil  2.Patrimônio Cultural, Memória, História e Acervos</label>
+                            <br><label>Áreas de Interesse: Letras com ênfase em Português, Inglês, Literatura, atuando principalmente nos seguintes temas: léxico, língua negro-africana.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="ivofe17@gmail.com" target="_blank"> ivofe17@gmail.com </a></label>
+                        </fieldset><label class="id-colaboradores-texto"></label>
+
+                    </div>
+                    <!-- FIM - Colaborador 10 de 18 -->
+                    <!-- Colaborador 11 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/11.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: José Henrique de Freitas Santos</label> <br>
+                            <label>Professor Associado I, do Instituto de Letras da Universidade Federal da Bahia, onde trabalha, na graduação, com componentes curriculares ligados à "Língua, poder e diversidade cultural" e à "Leitura e Produção de Textos". Concluiu o Pós-Doutorado em Estudos Literários pela Obafemi Awolowo University (Ile-Ife, Nigéria), em fevereiro de 2018. Doutor em Teorias e Crítica da Literatura e da Cultura pela UFBA. Docente do quadro permanente tanto do Programa de Pós-graduação em Literatura e Cultura quanto do Mestrado Profissional em Letras - PROFLETRAS, ambos do ILUFBA. Coordena o grupo de pesquisa YORUBANTU: epistemologias Yoruba e Bantu nos estudos literários, linguísticos e culturais. Integra também como pesquisador o NELT - Núcleo de Estudos das Linguagens e suas Tecnologias (UFBA) e o grupo de pesquisa Rasuras (UFBA). Autor, dentre outras obras, de "O arco e a arkhé: ensaios sobre literatura e cultura" (Editora Ogums Toques Negros, 2016).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a></label>
+                            <br>Link do ORCID:<a class="link-colaboradores" href="https://orcid.org/0000-0002-1507-2627"> https://orcid.org/0000-0002-1507-2627 </a>
+                            <br><label>Linha de Pesquisa: 1. Culturas Negro-africanas no Brasil  2.Patrimônio Cultural, Memória, História e Acervos</label>
+                            <br><label>Áreas de Interesse: Epistemologia negra, Epistemologia yoruba, Epistemologias bantu, Saberes universitários e extraescolares, Literatura negra, Literatura brasileira, Literaturas africanas, Epistemologia literária, Estudos culturais, Língua Portuguesa, Letramentos, Estudos étnicos.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset><label class="id-colaboradores-texto"></label>
+
+                    </div>
+                    <!-- Colaborador 11 de 18 -->
+                    <!-- Colaborador 12 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/12.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Lise Mary Arruda Dourado</label> <br>
+                            <label>Professora Adjunta da Universidade do Estado da Bahia (UNEB), no curso  de Letras, DCH I. Pesquisadora do Núcleo de Estudos Lexicais (NEL/PPGEL/UNEB) e do Núcleo de Estudos Africanos e Afro-Brasileiros em Línguas e Culturas (NGEAALC/UNEB). Membro do Grupo de Trabalho de Lexicologia, Lexicografia e Terminologia (GTLEX) da ANPOLL. Doutora em Educação e Contemporaneidade pelo Programa de Pós-graduação em Educação e Contemporaneidade (PPGEduC/UNEB), tendo defendido a tese Fluências lexicais africanas e afro-brasileiras no processo de construção identitária dos estudantes da Escola Municipal Eugênia Anna dos Santos. Mestra em Estudo de Linguagens pelo Programa de Pós-graduação em Estudo de Linguagens (PPGEL/UNEB), tendo defendido a dissertação Ifá lexical: o léxico de terreiro em Tenda dos Milagres, construção identitária do povo-de-santo. Licenciada em Letras com habilitação em Português e Literatura da Língua Portuguesa pela Universidade Católica do Salvador. Atualmente, desenvolve os projetos: Bahia de Todos os Pratos: Pequeno Dicionário da Cozinha Baiana (NEL) e Xirê de Palavras (NGEAALC).  Pós-doutorado no Programa de Pós-Graduação em Literatura e Cultura (PPGLitCult) da Universidade Federal da Bahia (UFBA), com a pesquisa Oruko: a cosmogonia do nome na Literatura-Terreiro, foi supervisionada pelos professores Dr. José Henrique de Freitas Santos (UFBA) e Dr. Félix Ayoh'Omidire (Obafemi Awolowo University).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/6105204537947616"> http://lattes.cnpq.br/6105204537947616 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a>
+                            <br><label>Linha de Pesquisa:  2. Línguas da Família Niger-Congo e Negroafricano</label>
+                            <br><label>Áreas de Interesse: Estudos lexicais.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="ldourado@uneb.br" target="_blank"> ldourado@uneb.br </a></label>
+                        </fieldset>
+                        <label class="id-colaboradores-texto"></label>
+
+                    </div>
+                    <!-- Colaborador 12 de 18 -->
+                    <!-- Colaborador 13 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/13.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Márcia Lidiane Rodrigues Santana</label> <br>
+                            <label>Graduada em Pedagogia pela Faculdade Visconde de Cairu. Pesquisadora  do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Cultura (NGEAALC - UNEB). Integrante da Rede Um grito pela Vida (RUGPV-CRB), atuando na Prevenção e Erradicação do trabalho escravo, tráfico de pessoas e exploração sexual. Experiência em práticas formativas para grupos populares, lideranças jovens e comunitárias. Ativista dos Direitos Humanos e Direito das mulheres. Integrante do Coletivo de Mulheres do Lemarx - Grupo de Estudos de Angela Davis (FACED - UFBA).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/0159477642190133"> http://lattes.cnpq.br/0159477642190133 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a>
+                            <br><label>Linha de Pesquisa: 4. Educação e Interseccionalidades</label>
+                            <br><label>Áreas de Interesse: Letras com ênfase em Português, Inglês, Literatura, atuando principalmente nos seguintes temas: léxico, língua negro-africana.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset>
+                        <label class="id-colaboradores-texto"></label>
+
+                    </div>
+                    <!-- Colaborador 13 de 18 -->
+                    <!-- Colaborador 14 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/14.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Maria Eunice Rosa de Jesus</label> <br>
+                            <label>Doutora e Mestra em Educação e Contemporaneidade pela Universidade do Estado da Bahia (PPGEDuc/UNEB). Especialização Lato Sensu em Planejamento Educacional pela Universidade Salgado de Oliveira (UNIVERSO). Licenciada em Letras – Língua Portuguesa e Literaturas de Língua Portuguesa pela Universidade do Estado da Bahia – UNEB (1997). Bacharela em Administração pela Universidade do Estado da Bahia – UNEB (2005). Professora no Colegiado de Letras - Departamento de Ciências Humanas (UNEB/DCH - CAMPUS V, Santo Antônio de Jesus). Professora da Rede Estadual de Educação (SEC/BA), no Colégio Estadual Francisco da Conceição Menezes, Santo Antônio de Jesus. Pesquisadora do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Cultura (NGEALC - UNEB).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/1519147891279082"> http://lattes.cnpq.br/1519147891279082 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a>
+                            <br><label>Linha de Pesquisa: 1. Culturas Negro-africanas no Brasil, 2. Línguas da Família Niger-Congo e Negroafricano</label>
+                            <br><label>Áreas de Interesse: Pesquisas nas áreas de Letras e Educação, com ênfase em Etnolinguística, formação docente, principalmente nos seguintes temas: festividade, saberes locais, cotidiano, catolicismo rural e religiosidade, falares da Chapada Diamantina – vocábulos de Língua africanas dos troncos Banto e Kwa incorporados ao português brasileiro e, em especial, falados em algumas cidades e comunidades negras rurais da Chapada Diamantina/Bahia.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset>
+                        <label class="id-colaboradores-texto"></label>
+
+                    </div>
+                    <!-- Colaborador 14 de 18 -->
+                    <!-- Colaborador 15 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/15.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Mille Caroline Rodrigues Fernandes 'Makyesi'</label> <br>
+                            <label>Pós-Doutoranda em Educação (IEA/USP). Doutora e Mestra em Educação e Contemporaneidade (PPGEduc/UNEB). Fez Doutorado Sanduíche no Instituto Superior de Ciências da Educação-ISCED/Luanda, como bolsista PDSE/CAPES. Formada em Pedagogia. Professora de História da África da Rede Municipal de Nazaré/BA. Professora Colaboradora no Departamento de Línguas e Literaturas Africanas-ISCED/Luanda. Foi professora e conferencista no Centro Cultural vinculado ao Itamaraty e à Embaixada do Brasil em Luanda (2018-2019). Foi Professora Substituta na Universidade do Estado da Bahia - UNEB/DEDC XV-Valença (2014-2018). Atualmente presta serviço à Coordenação de Educação Quilombola (SEC/BA), como redatora do Documento Referencial Curricular da Modalidade de Educação Escolar Quilombola para o Ensino Médio e na elaboração de Projetos e Cadernos Pedagógicos para a Educação Escolar Quilombola. Pesquisadora do Grupo Memória da Educação na Bahia (PROMEBA/PPGEduc/UNEB), do Grupo de Pesquisa Formação de Professores, Currículo e Pedagogias Decoloniais (GFPPD/UNIRIO-RJ) – partícipe da Rede Carioca de Etnoeducadoras Negras (RECEN) vinculada ao Conselho Latino-Americano de Ciências Sociais (CLACSO). Pesquisadora e Vice Coordenadora do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/0292007055718941"> http://lattes.cnpq.br/0292007055718941 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="https://orcid.org/0000-0002-6400-0822"> https://orcid.org/0000-0002-6400-0822 </a>
+                            <br><label>Linha de Pesquisa: 1. Culturas Negro-africanas no Brasil, 2. Línguas da Família Niger-Congo e Negroafricano</label>
+                            <br><label>Áreas de Interesse: Pesquisas no âmbito da Educação Escolar Quilombola; Currículo e Formação Docente para as Relações Étnico-raciais; História, Língua e Cultura dos Povos Bantu-Kongo nos Quilombos da Bahia; Epistemologias Afrodecoloniais.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="mfernandes@uneb.br" target="_blank"> mfernandes@uneb.br </a></label>
+                        </fieldset>
+                        <label class="id-colaboradores-texto"></label>
+
+                    </div>
+                    <!-- Colaborador 15 de 18 -->
+                    <!-- Colaborador 16 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/16.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Tanísia Ferreira Nascimento</label> <br>
+                            <label>Aluna especial do doutorado no Programa de Pós-graduação em Estudos Linguísticos (PPGEL), pela Universidade Estadual de Feira de Santana (UEFS). Graduanda em Pedagogia pela Universidade Cesumar. Mestra em Intervenção Educativa e Social pelo Programa de Pós-Graduação Mestrado Profissional (MPIES/UNEB-campus XI, Serrinha). Pós-graduada em Alfabetização e Letramento, pelo Centro Universitário Leonardo da Vinci (UNIASSELVI). Graduada em Letras com Inglês pela Universidade do Estado da Bahia (UNEB). Experiência com Ensino Médio; Fundamenta I, Educação Infantil. Foi Professora bolsista pelo Programa de Bolsa de Iniciação à Docência (PIBID), para alunos do Ensino Médio no Colégio Estadual Yeda Barradas Carneiro (Colégio do Açudinho). Atualmente é Professora de Língua Inglesa, no Centro de Ensino Menino Jesus. Pesquisadora Grupo Educação, Políticas Públicas e Desenvolvimento Social (EPODS/UNEB-Campus XI), do Grupo de Estudo e Pesquisa em Multiletramentos, Educação e Tecnologias (GEPLET) e do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB). </label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/2917535640971878"> http://lattes.cnpq.br/2917535640971878 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a>
+                            <br><label>Linha de Pesquisa:  3. Patrimônio Cultural, Memória, História e Acervos</label>
+                            <br><label>Áreas de Interesse: Letras com ênfase em Português, Inglês, Literatura, atuando principalmente nos seguintes temas: léxico, língua negro-africana.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset>
+                        <label class="id-colaboradores-texto"></label>
+
+                    </div>
+                    <!-- Colaborador 16 de 18 -->
+                    <!-- Colaborador 17 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/17.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Vânia Santos de Souza</label> <br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/2277743515522943"> http://lattes.cnpq.br/2277743515522943 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a>
+                            <br><label>Linha de Pesquisa: 4. Educação e Interseccionalidades</label>
+                            <br><label>Áreas de Interesse: Educação, principalmente nos seguintes temas: educação emancipadora, aprendizagem, vulnerabilidades sociais, justiça social; Organizações Negras e suas Estratégias e Relações de Poder.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="vaniass1914@hotmail.com" target="_blank"> vaniass1914@hotmail.com </a></label>
+                        </fieldset>
+                        <label class="id-colaboradores-texto"> Ativista dos Direitos Humanos. Pedagoga, formada pela UNOPAR (Universidade Norte do Paraná). Integro o Coletivo de Mulheres do LEMARX - Grupo de Estudo Angela Davis (UFBA). Membra da Rede Um Grito Pela Vida e comparte do Grupo de Estudos ÊRE (UFBA). Atuei como Agente da Educação durante a minha graduação, por cerca de dois anos, dentro da minha comunidade em São Cristóvão.</label><br>
+                    </div>
+                    <!-- Colaborador 17 de 18 -->
+                    <!-- Colaborador 18 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/doscente/18 - Yeda.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Yeda Antonita Pessoa de Castro</label> <br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/9378529199920162"> http://lattes.cnpq.br/9378529199920162 </a></label>
+                            <br><label>Link do ORCID: <a class="link-colaboradores" href="https://orcid.org/0000-0002-1175-7135"> https://orcid.org/0000-0002-1175-7135 </a></label>
+                            <br><label>Linha de Pesquisa: 1. Culturas Negro-africanas no Brasil
+                        2. Línguas da Família Niger-Congo e Negroafricano
+                        3. Patrimônio Cultural, Memória, História e Acervos
+                        </label>
+                            <br><label>Áreas de Interesse: Relações culturais e linguísticas Brasil-África; Culturas Negro-africanas no Brasil; Línguas da Família Niger-Congo e Negroafricano; Patrimônio Cultural, Memória, História e Acervos</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="yedapessoa@uol.com.br" target="_blank"> yedapessoa@uol.com.br </a></label>
+                        </fieldset>
+                        <label class="id-colaboradores-texto"> Etnolinguísta, Doutora (Ph.D ) em Línguas Africanas pela Universidade Nacional do Zaire, República Democrática do Congo. Consultora Técnica em Línguas Africanas do Museu da Língua Portuguesa na Estação da Luz em São Paulo. Membra da Academia de Letras da Bahia e consultora técnica na Pró-Reitoria de Extensão (PROEX) na Universidade do Estado da Bahia (UNEB). Pertence ao GT de Literatura Oral e Popular da ANPOLL, ao Comitê Científico Brasileiro do Projeto Rota do Escravo da UNESCO e ao Conselho Consultivo do Patrimônio Cultural do IPHAN em Línguas e Culturas Africanas. Condecorada pelo Itamaraty no Grau de Comendadora da Ordem do Rio Branco e com a Comenda Maria Quitéria pela Câmara de Vereadores da Cidade do Salvador por serviços prestados ao País na política de aproximação cultural Brasil-África de que foi pioneira, tendo sido o primeiro brasileiro a defender tese de pós-graduação em uma universidade africana e o único até agora em sua especialidade. Foi Professora Visitante em Universidades da África e do Caribe, onde atuou também como Adida Cultural da Embaixada do Brasil em Trinidad-Tobago. Na Bahia, foi Diretora do Centro de Estudos Afro-Orientais da (UFBA). Fundou o Museu Afro-Brasileiro em Salvador. Foi Professora Visitante do Programa de Pós-Graduação em Educação e Contemporaneidade (PPGEDuC/UNEB), lecionando línguas e culturas africanas. Professora Convidada de Universidades na Alemanha desde 2000. Líder e Fundadora do Grupo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (GEAALC) da Universidade do Estado da Bahia (UNEB), hoje transformado em Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB).</label><br>
+                    </div>
+                    <!-- FIM - Colaborador 18 de 18 -->
+
+                </form>
+                <!-- FIM - Colaboradores contidos em ... -->
+            </div>
+
+
+            <div id="myLinks20" class="container2">
+                <h1 class="texto-membros"> Membros - Estudantes </h1>
+
+                <!-- Colaboradores contidos em ... -->
+                <form class="caixa-membros-estudantes">
+                    <!-- Colaborador 01 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/estudantes/01.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Angelo Márcio Correia da Conceição</label> <br>
+                            <label>Possui graduação em EDUCAÇÃO FISICA (licenciado e bacharel) pela FACULDADE SOCIAL DA BAHIA (2015; 2016). Especialização em Treinamento Físico para a terceira idade. Tem experiência na área de Ciências da Saúde, com ênfase em Educação Física. Atua como Coordenador no Projeto A SAÚDE DAS MULHERES E AS ATIVIDADES FÍSICAS DE 60 +. Pesquisador do Núcleo de Estudos Africanos e Afrobrasileiros em Línguas e Cultura (NGEALC), pertencente à Universidade do Estado da Bahia (UNEB/Campus I, Salvador – Bahia). É Diretor Cultural do Instituto Cidadania e Inclusão Social (IECIS), na cidade de Salvador - Bahia.</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/7010251249596809"> http://lattes.cnpq.br/7010251249596809</a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/7010251249596809"> http://lattes.cnpq.br/7010251249596809</a>
+                            <br><label>Linha de Pesquisa: 3. Patrimônio Cultural, Memória, História e Acervos 4. Educação e Interseccionalidades</label>
+                            <br><label>Áreas de Interesse: Letras com ênfase em Português, Inglês, Literatura, atuando principalmente nos seguintes temas: léxico, língua negro-africana.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 01 de 18 -->
+                    <!-- Colaborador 02 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/estudantes/02.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Arthur Ferreira de Jesus</label> <br>
+                            <label>Graduando em Letras Vernáculas e suas Respectivas Literaturas pela Universidade do Estado da Bahia (UNEB/ DCH I). Pesquisador do Grupo de Pesquisa Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/3193537285346634"> http://lattes.cnpq.br/3193537285346634 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="https://orcid.org/0000-0003-2020-9090"> https://orcid.org/0000-0003-2020-9090 </a>
+                            <br><label>Linha de Pesquisa: 2. Línguas da Família Niger-Congo e Negroafricano</label>
+                            <br><label>Áreas de Interesse: Educação com ênfase em formação de professores; Tecnologias de Informação e Comunicação Aplicada à Educação; Extensão Universitária e Gestão Pública Universitária.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="arthur.uneb@hotmail.com" target="_blank"> arthur.uneb@hotmail.com </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 02 de 10 -->
+                    <!-- Colaborador 03 de 10 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/estudantes/03.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Cristina Barreto Santos da Silva</label> <br>
+                            <label>Mestranda pelo Programa de Pós-Graduação Mestrado Profissional em Intervenção Educativa e Social pela Universidade Estadual da Bahia - UNEB/CAMPUS - SERRINHA - MPIES (Mestrado Profissional em Intervenção Educativa e Social). Discente do curso de Especialização em Alfabetização + Neurociências: Interfaces na Educação Integral pela Universidade Federal do Rio Grande do Norte (UFRN). Especialista em Educação Infantil pela Fundação Visconde de Cairu (2014). Graduada em Pedagogia pela Fundação Visconde de Cairu (2012). Atuou como professora de Educação Infantil da rede privada e pública da cidade de Salvador. Pesquisadora do Grupo de Pesquisa: Educação, Políticas Pública e Desenvolvimento Social (EPODS/ UNEB) e do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB). </label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/8013063354315459"> http://lattes.cnpq.br/8013063354315459 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="https://orcid.org/0000-0001-8713-579X"> https://orcid.org/0000-0001-8713-579X </a>
+                            <br><label>Linha de Pesquisa: 3. Patrimônio Cultural, Memória, História e Acervos</label>
+                            <br><label>Áreas de Interesse: Educação infantil, Alfabetização e Ensino Fundamental - Anos Iniciais.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="amanaiaramiramda@gmail.com" target="_blank"> amanaiaramiramda@gmail.com </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 03 de 18 -->
+                    <!-- Colaborador 04 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/estudantes/04.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Douglas Henrique Santana Santos</label> <br>
+                            <label>Graduando do curso de Licenciatura em Letras - Língua Portuguesa e Literaturas de Língua Portuguesa, pela Universidade do Estado da Bahia, UNEB, Salvador. Voluntário do “Projeto de Extensão com os dicionários nas mãos: pesquisando palavras dos idiomas português, inglês e espanhol”. Pesquisador do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/7895781918246115"> http://lattes.cnpq.br/7895781918246115 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="https://orcid.org/0000-0001-8188-4669"> https://orcid.org/0000-0001-8188-4669 </a>
+                            <br><label>Linha de Pesquisa:  3. Patrimônio Cultural, Memória, História e Acervos </label>
+                            <br><label>Áreas de Interesse: Temáticas relacionadas às Irmandades Negras e Educação; Educação da Relações Étnico-raciais: Diversidade Religiosa e Memórias.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="unebletras2019doug@gmail.com" target="_blank"> unebletras2019doug@gmail.com </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 04 de 18 -->
+                    <!-- Colaborador 05 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/estudantes/05.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Fabiana de Jesus dos Santos</label> <br>
+                            <label>Graduada em Pedagogia, pela Fundação Visconde de Cairu (2017). Especialização em Educação a Distância-EAD, pela Fundação Visconde de Cairu (2020) e Especialização em Spiritualità Francescana, pela Pontificia Università Antonianum - PUA/Itália (2013). Foi bolsista Suore Francescane Immacolatine, SFI, Itália (2014 – 2017). Atualmente é Pós-graduanda em Educação Especial e Inclusiva e Neuropsicopedagogia Institucional e Clínica.  Pesquisadora da Universidade do Estado da Bahia, CPDER e do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB). </label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/3849799012474542"> http://lattes.cnpq.br/3849799012474542 </a></label>
+                            <br>Link do ORCID:<a class="link-colaboradores" href="https://orcid.org/0000-0003-4121-004X"> https://orcid.org/0000-0003-4121-004X </a>
+                            <br><label>Linha de Pesquisa: 3. Patrimônio Cultural, Memória, História e Acervos
+                </label>
+                            <br><label>Áreas de Interesse: Sociolinguística e Psicolinguística; Aprendizagem de Leituras e Escrita de Afrodescendentes baianos; Culturas Africanas: Ensino de Língua Portuguesa em Escolas Quilombolas; Políticas Linguísticas em Territórios Quilombolas.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="cvitorino@uneb.br" target="_blank"> cvitorino@uneb.br </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 05 de 18 -->
+                    <!-- Colaborador 06 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/estudantes/06.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Filipe Augusto de Oliveira Costa</label> <br>
+                            <label>Graduado em Direito, pela União Metropolitana de Educação e Cultura, (UNIME). Graduando em História, pela Universidade do Estado da Bahia (UNEB). Advogado trabalhista, possui experiência na advocacia trabalhista empresarial. Pesquisador do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/2330822878869358"> http://lattes.cnpq.br/2330822878869358 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a>
+                            <br><label>Linha de Pesquisa:  3. Patrimônio Cultural, Memória, História e Acervos.</label>
+                            <br><label>Áreas de Interesse: Educação com ênfase nos seguintes temas: processo ensino-aprendizagem de leitura e escrita; Educação Profissional e Estudos de Linguagem..</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 06 de 18 -->
+                    <!-- Colaborador 07 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/estudantes/07.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Jhon Wanderson Nogueira Santana</label> <br>
+                            <label>Graduando em ABI – História, pela Universidade Federal da Bahia (UFBA). Pesquisador do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/2293770677512435"> http://lattes.cnpq.br/2293770677512435 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a>
+                            <br><label>Linha de Pesquisa: 1. Culturas Negro-africanas no Brasil.</label>
+                            <br><label>Áreas de Interesse: Letras com ênfase em Português, Inglês, Literatura, atuando principalmente nos seguintes temas: léxico, língua negro-africana.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 07 de 18 -->
+                    <!-- Colaborador 08 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/estudantes/08.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Juliana Melo Leite</label> <br>
+                            <label>Mestranda em Intervenção Educativa e Social, pelo Programa Interdisciplinar em Estudos Sociais e Humanidades  (MPIES/UNEB). Especialista em Gestão, Planejamento e Organização de Eventos pela Universidade Norte do Paraná (UNOPAR). Graduada em Comunicação Social, pela Faculdade São Francisco de Barreiras (FASB). Analista Universitária - Comunicação Social na Universidade do Estado da Bahia (UNEB) e coordenadora do Núcleo de Comunicação do Campus XI/UNEB, Serrinha - BA. Membra da Associação Brasileira de Pesquisadores e Profissionais em Educomunicação (ABPEducom). Pesquisadora do Grupo de Pesquisa Educação, Políticas Públicas e Desenvolvimento Social (EPODS/UNEB), do Grupo de Estudos em Tecnologias, Educação e Libras (GETEL/UNEB) e do Núcleo do Grupo de Estudos Africanos e Afrobrasileiros em Línguas e Culturas (NGEAALC) UNEB.</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/9644050655825238"> http://lattes.cnpq.br/9644050655825238 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="https://orcid.org/0000-0003-3567-5756"> https://orcid.org/0000-0003-3567-5756 </a>
+                            <br><label>Linha de Pesquisa:  4. Educação e Interseccionalidades</label>
+                            <br><label>Áreas de Interesse: Ciência da Informação; Memória, Educação e Diversidade; Patrimônio Acervos; Arquivos Memoriais Museu e Inventários Culturais.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="hcosta@uneb.br" target="_blank"> hcosta@uneb.br </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 08 de 10 -->
+                    <!-- Colaborador 09 de 10 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/estudantes/09.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Márcio Costa Vitorino</label> <br>
+                            <label>Mestrando em Intervenção Educativa e Social, pelo Programa Interdisciplinar em Estudos Sociais e Humanidades  (MPIES/UNEB). Pedagogo. Educador Social. Sócio fundador do Instituto de Esporte, Cidadania e Inclusão Social. Coordenador da Federação das Associações de Bairros de Salvador (FABS). Conselheiro Distrital de Saúde do Distrito Sanitário Cabula/ Beirú – Salvador – BA. Militante da luta pelos direitos da população negra e periférica. Antimanicomialista. Pesquisador do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/8684208514748056"> http://lattes.cnpq.br/8684208514748056 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="https://orcid.org/0000-0003-2607-7199"> https://orcid.org/0000-0003-2607-7199 </a>
+                            <br><label>Linha de Pesquisa: 1. Culturas Negro-africanas no Brasil</label>
+                            <br><label>Áreas de Interesse: Pesquisa com crianças afrodescendentes baianas.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 09 de 10 -->
+                    <!-- Colaborador 10 de 10 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/estudantes/10.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label>Nome: Tairone Acácio Couto</label> <br>
+                            <label>Graduado do curso de Letras Língua Portuguesa, pela Universidade Paulista (UNIP). Defendi o TCC da graduação em Letras com o título: “Formação de professores de língua portuguesa para o contexto escolar quilombola”. Professor no Reforço Escolar da SEDUC/Sergipe. Sou quilombola do Quilombo Mocambo, localizado em Porto da Folha/Sergipe. Pesquisador do Núcleo de Estudos Africanos e Afro-brasileiros em Línguas e Culturas (NGEAALC/UNEB).</label><br>
+                            <label>Link do Lattes: <a class="link-colaboradores" href="http://lattes.cnpq.br/0207874110321864"> http://lattes.cnpq.br/0207874110321864 </a></label>
+                            <br>Link do ORCID: <a class="link-colaboradores" href="http://lattes.cnpq.br/0076012411573489"> http://lattes.cnpq.br/0076012411573489 </a>
+                            <br><label>Linha de Pesquisa: 1. Culturas Negro-africanas no Brasil </label>
+                            <br><label>Áreas de Interesse: Letras com ênfase em Português, Inglês, Literatura, atuando principalmente nos seguintes temas: léxico, língua negro-africana.</label>
+                            <br><label>E-mail: <a class="link-colaboradores" href="ivofe17@gmail.com" target="_blank"> ivofe17@gmail.com </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 10 de 10 -->
+
+                </form>
+                <!-- FIM - Colaboradores contidos em ... -->
+            </div>
+
+            <div id="myLinks30" class="container3">
+                <h1 class="texto-membros"><strong> Membros - Tecnicos </strong></h1>
+
+                <!-- Colaboradores contidos em ... -->
+                <form class="caixa-membros-tecnicos">
+                    <!-- Colaborador 01 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/tecnicos/01.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label><strong>Nome:</strong>  Ana Pessoa de Souza Castro</label> <br>
+                            <label>Pós-Graduada em História e Culturas Africanas e Afrobrasileiras. Chefe do Setor de Gestão Administrativa e Financeira da Pró-Reitoria de Ensino de Graduação da Universidade Federal da Bahia (PROGRAD/UFBA). Foi Tradutora Oficial da Assessoria de Comunicação (ASCOM) da Secretaria de Turismo do Estado da Bahia, sendo responsável pela tradução do Portal Oficial do Turismo do Estado da Bahia: http://bahia.com.br/, bem como dos seus hotsites. Também faz traduções para o Instituto de Radiodifusão do Estado da Bahia (IRDEB)/TVE Bahia, onde é tradutora oficial do portal http://carnaval.ba.gov.br/. Tem vasta experiência como assistente de pesquisa nas áreas de etnolinguística e antropologia, e como auxiliar na composição e tradução de textos técnicos e livros nestas mesmas áreas. Também atuou na pesquisa sobre línguas africanas para a montagem do Museu da Língua Portuguesa na Estação da Luz, em São Paulo. Foi tradutora oficial no 12º Congresso da ONU sobre Prevenção ao Crime e Justiça Criminal. Graduada em Administração de Empresas pela Universidade Católica do Salvador - UCSAL (2006). Pesquisadora do Núcleo de Estudos Africanos e Afro-Brasileiros em Línguas e Culturas (NGEALC/UNEB).</label><br>
+                            <label><strong>Link do Lattes:</strong> <a class="link-colaboradores" href="http://lattes.cnpq.br/7010251249596809"> http://lattes.cnpq.br/7010251249596809</a></label>
+                            <br><strong>Link do ORCID:</strong> <a class="link-colaboradores" href="http://lattes.cnpq.br/7010251249596809"> http://lattes.cnpq.br/7010251249596809</a>
+                            <br><label><strong>Linha de Pesquisa:</strong> 3. Patrimônio Cultural, Memória, História e Acervos 4. Educação e Interseccionalidades</label>
+                            <br><label><strong>Áreas de Interesse:</strong> Letras com ênfase em Português, Inglês, Literatura, atuando principalmente nos seguintes temas: léxico, língua negro-africana.</label>
+                            <br><label><strong>E-mail: </strong><a class="link-colaboradores" href="asmlima@uneb.br" target="_blank"> asmlima@uneb.br </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 01 de 18 -->
+                    <!-- Colaborador 02 de 10 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/tecnicos/02.jpg" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label><strong>Nome:</strong>  Antonio Cesar Araujo Santana</label> <br>
+                            <label></label><br>
+                            <label><strong>Link do Lattes:</strong> <a class="link-colaboradores" href="">  </a></label>
+                            <br><strong>Link do ORCID:</strong>
+                            <a class="link-colaboradores" href=""> </a>
+                            <br><label><strong>Linha de Pesquisa: </strong></label>
+                            <br><label><strong>Áreas de Interesse: </strong></label>
+                            <br><label><strong>E-mail: </strong><a class="link-colaboradores" href="acssantana@uneb.br" target="_blank"> acssantana@uneb.br </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 02 de 18 -->
+                    <!-- Colaborador 03 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/tecnicos/03.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label><strong>Nome:</strong> Karine Janaina Santos Costa</label> <br>
+                            <label>Formada em Comunicação Social, com habilitação em Publicidade e Propaganda, pela Faculdade da Cidade do Salvador (FCSal). Estive a frente da organização, agendamento de atividades culturais e acadêmicas, assessoria de comunicação interna e externa e coordenação de grupo de trabalho do Centro de Estudos dos Povos Afro-Índios Américas  (CEPAIA), órgão vinculado à Universidade do Estado da Bahia. Tem experiência em Coordenação, planejamento, execução e monitoramento de campanhas institucionais, bem como concepção e produção de ações de marketing promocional. Pesquisadora do Núcleo de Estudos Africanos e Afro-Brasileiros em Línguas e Culturas (NGEALC/UNEB).</label><br>
+                            <label><strong>Link do Lattes: </strong><a class="link-colaboradores" href="http://lattes.cnpq.br/7895781918246115"> http://lattes.cnpq.br/7895781918246115 </a></label>
+                            <br><strong>Link do ORCID:</strong> <a class="link-colaboradores" href="https://orcid.org/0000-0001-8188-4669"> https://orcid.org/0000-0001-8188-4669 </a>
+                            <br><label><strong>Linha de Pesquisa: </strong> 3. Patrimônio Cultural, Memória, História e Acervos </label>
+                            <br><label><strong>Áreas de Interesse: </strong> Produção executiva, cultura, rádio, divulgação, assessoria de imprensa e atendimentos; Criação de novos sites, atualização e manutenção de institucionais (arquitetura de informação, layout, implementação, publicação); Redação e edição de notícias publicadas em site institucional.</label>
+                            <br><label><strong>E-mail: </strong><a class="link-colaboradores" href="unebletras2019doug@gmail.com" target="_blank"> unebletras2019doug@gmail.com </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 04 de 18 -->
+                    <!-- Colaborador 05 de 18 -->
+                    <div class="id-colaboradores">
+                        <img class="forma-colaboradores-img" src="img/membros/tecnicos/04.png" width="300" height="400" alt="img">
+                        <fieldset class="id-colaboradores-texto">
+                            <label><strong>Nome:</strong> Rosana Soares Garcia</label> <br>
+                            <label>Possui graduação em Ciências Estatísticas, pela Escola Superior de Estatística da Bahia (1989). Especialização em Arquivologia, pela Universidade do Estado da Bahia (UNEB), com conhecimento na área de Gestão de Documentação e Difusão de Conhecimento. Tem experiência na área de Probabilidade e Estatística. Pesquisadora do Núcleo de Estudos Africanos e Afro-Brasileiros em Línguas e Culturas (NGEALC/UNEB).</label><br>
+                            <label><strong>Link do Lattes: </strong><a class="link-colaboradores" href="http://lattes.cnpq.br/7895781918246115"> http://lattes.cnpq.br/7895781918246115 </a></label>
+                            <br><strong>Link do ORCID:</strong> <a class="link-colaboradores" href="https://orcid.org/0000-0001-8188-4669"> https://orcid.org/0000-0001-8188-4669 </a>
+                            <br><label><strong>Linha de Pesquisa: </strong> 3. Patrimônio Cultural, Memória, História e Acervos </label>
+                            <br><label><strong>Áreas de Interesse: </strong> </label>
+                            <br><label><strong>E-mail: </strong><a class="link-colaboradores" href="unebletras2019doug@gmail.com" target="_blank"> unebletras2019doug@gmail.com </a></label>
+                        </fieldset>
+                    </div>
+                    <!-- FIM - Colaborador 05 de 18 -->
+
+                </form> <br>
+                <!-- FIM - Colaboradores contidos em ... -->
+            </div>
+            <br>
+        </div>
+</body>
+
+<!--                                                  BOTÃO DO VOLTE AO TOPO                                                                -->
+
+<div class="rodape-cor">
+    <footer class="menu-r-topo">
+        <a class="texto-rodape-topo" href="#topo" target="_blank"> <i class="fas fa-caret-up icone-topo"></i> Volte ao Topo </a>
+    </footer>
+
+    <!--                                                  ICONES DO RODAPE                                                                -->
+
+    <div class="rodape-cor">
+        <footer class="menu-r">
+            <a href="https://www.facebook.com/proreitoriadeextensao.uneb/?hc_ref=ARTVtgjhaHuvL793gDjVyW5eQWORQu11HvixEdUedCU_IbsdpsHBprYJ6g_8VZNp0c8&fref=nf&__xts__[0]=68.ARBe5w9C7bYVyZQbbdHe08VfL2mr8CXvmMmF8POuNUJoHwbUXQumkG2CakFb9ZVY8otbzt_uayL6wjVWbeza_n8G9Oe5FXHeelljGFJjSoy98sJ8e4mSNlXb0S0Y5HgutVuD432ge_Y79iJb6lIcji_9KyoLszkxMbGy5v2wqrG6i00iEZpONv96m_56yZryJ4wcD3lLRPCpHJeh7mvoEnUm3g8w9gLbugZe70JdlqT2sIeEI49tZ1KffWIP2WP6_aPbREXHeG-U3Wcn2SPB8cZhtEui4sT-K8bIRf2gLX2HPtUCU9qOwRU "
+                target="_blank"> <i class="fab fa-facebook redes-sociais"></i> </a>
+
+            <a href="https://www.instagram.com/NGEAALC.uneb/ " target="_blank"> <i class="fab fa-instagram redes-sociais"></i> </a>
+
+            <a href=" " target="_blank"> <i class="fab fa-youtube redes-sociais"></i> </a>
+
+            <a href=" " target="_blank"> <i class="fab fa-twitter redes-sociais"></i> </a>
+
+            <a href=" " target="_blank"> <i class="fab fa-flickr redes-sociais"></i> </a>
+
+            <a href="mailto:@africanias.uneb.br " target="_blank "> <i class="far fa-envelope contato "></i> </a>
+
+        </footer>
+
+        <!--                                                  TEXTO DO RODAPE                                                               -->
+
+        <footer class="menu-r-texto ">
+            <div class="apagar-texto-rodape ">
+                <label class="texto-rodape-redes-sociais"><strong>Redes Sociais</strong></label>
+
+                <label class="texto-rodape-contato"><strong>Fale Conosco</strong></label>
+            </div>
+        </footer>
+
+        <!--                                            TEXTO ABAIXO DO RODAPE                                                              -->
+
+        <div class="texto-rodape ">
+            <label class="texto-rodape-esquerda "><strong> Desenvolvido por <a class=" " href=" "> Tatakae </a></strong></label>
+            <label class="texto-rodape-direita "><strong> Universidade do Estado da Bahia - © Todos os Direitos Reservados</strong></label>
+        </div>
+    </div>
+
+
+
+</html>
